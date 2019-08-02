@@ -1,0 +1,44 @@
+.header {
+  background: url("https://i.imgur.com/kx94ZPz.jpg") no-repeat center center;
+  background-size: cover;
+  height: 20em; }
+  .header h1 {
+    margin-left: 1em;
+    padding-top: 0.5em;
+    font-size: 3em;
+    color: white; }
+  .header h2 {
+    text-align: center;
+    color: white;
+    padding-top: 0.5em;
+    font-size: 3em; }
+
+.pre-header {
+  background-color: rgba(245, 244, 240, 0.6);
+  padding: 0.4em; }
+  .pre-header ul {
+    font-size: 17px;
+    text-align: center; }
+  .pre-header li {
+    display: inline-block;
+    margin-left: 0.2em; }
+  .pre-header li:not(:first-child) {
+    margin-left: 2em; }
+  .pre-header .far {
+    color: var(--color-for-buttons, #FF6600); }
+  .pre-header .far span {
+    color: #030202;
+    margin-left: 0.3em; }
+  .pre-header .far a {
+    margin-left: 0.3em;
+    color: #030202; }
+  .pre-header .fas {
+    color: var(--color-for-buttons, #FF6600); }
+  .pre-header .fas a {
+    margin-left: 0.3em;
+    color: #030202;
+    font-weight: 400; }
+  .pre-header a:hover {
+    color: var(--color-for-buttons, #FF6600);
+    text-decoration: underline;
+    opacity: 1; }
