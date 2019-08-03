@@ -1,0 +1,14 @@
+.navigation {
+  padding: 0.4em 1.5em;
+  background-color: rgba(240, 189, 155, 0.774);
+  border-bottom: 1px solid var(--color-for-buttons, #FF6600); }
+  .navigation li {
+    display: inline-block; }
+  .navigation li:not(:first-child) {
+    margin-left: 3em; }
+  .navigation a {
+    color: #030303;
+    font-weight: 700; }
+  .navigation a:hover {
+    color: var(--color-for-buttons, #FF6600);
+    text-decoration: underline; }
