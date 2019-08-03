@@ -63,12 +63,14 @@ li {
 html {
   font-size: 16px;
   line-height: 1,5;
-  font-family: var(--content-font-style); }
+  font-family: var(--content-font-style);
+  color: black; }
 
 .wrapper {
   max-width: 80%;
   margin: 0 auto;
-  background-color: #FCFAFA; }
+  background-color: #FCFAFA;
+  padding-bottom: 1em; }
 
 h1, h2, h3, h4, h5 {
   font-family: var(--headings-font-style, "Lobster", cursive); }
@@ -140,3 +142,24 @@ h1, h2, h3, h4, h5 {
     border-top: 1px solid var(--color-for-buttons, #FF6600); }
     .declaimer .all-rights p {
       padding-top: 0.5em; }
+
+article {
+  padding: 1em; }
+  article h4 {
+    font-size: 2em;
+    margin-bottom: 1em; }
+  article .shipping-titles {
+    color: #3b4603;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 1em 0; }
+  article .notice {
+    color: #580207;
+    margin: 0.4em 0em;
+    text-transform: uppercase;
+    font-weight: 700; }
+  article .bolded-text {
+    font-weight: 700;
+    padding-bottom: 0.7em;
+    padding-top: 0.3em; }
