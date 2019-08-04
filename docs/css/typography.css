@@ -8,8 +8,7 @@ html {
 .wrapper {
   max-width: 80%;
   margin: 0 auto;
-  background-color: #FCFAFA;
-  padding-bottom: 1em; }
+  background-color: #FCFAFA; }
 
 h1, h2, h3, h4, h5 {
   font-family: var(--headings-font-style, "Lobster", cursive); }
