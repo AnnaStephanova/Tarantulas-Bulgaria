@@ -1,0 +1,65 @@
+.tarantulas-World {
+    margin-top:3em;
+
+    header{
+        width:100%;
+        text-align:center;
+        img{
+            width:60%;
+            height:80%;
+        }
+        img:hover{
+            opacity:0.5;
+        }
+        h1{
+            color:#FF6600;
+            font-weight: 900;
+        }
+    }
+
+    h3{
+       font-size:2em;
+       color:#FF6600;
+       padding-top:1em;
+
+    }
+  .image-with-text {
+    width: 20%;
+    float: left;
+    text-align:center;
+    margin:1em;
+    img {
+      width: 70%;
+      height: 30%;
+      padding-top:1em;
+      padding-bottom:1em;
+      border-radius:2em;
+      
+    }
+    p{
+        
+        color:rgba(0, 0, 0, 0.521);
+    }
+  }
+  .text {
+    float: none;
+  }
+  .image-with-text-2 {
+    width: 20%;
+    float: right;
+    text-align:center;
+    margin:1em;
+    img {
+      width: 70%;
+      height: 30%;
+      padding-top:1em;
+      padding-bottom:1em;
+      border-radius:2em;
+      
+    }
+    p{
+        
+        color:rgba(0, 0, 0, 0.521);
+    }
+  }
+}

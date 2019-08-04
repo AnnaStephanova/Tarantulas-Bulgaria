@@ -1,0 +1,45 @@
+.tarantulas-World {
+  margin-top: 3em; }
+  .tarantulas-World header {
+    width: 100%;
+    text-align: center; }
+    .tarantulas-World header img {
+      width: 60%;
+      height: 80%; }
+    .tarantulas-World header img:hover {
+      opacity: 0.5; }
+    .tarantulas-World header h1 {
+      color: #FF6600;
+      font-weight: 900; }
+  .tarantulas-World h3 {
+    font-size: 2em;
+    color: #FF6600;
+    padding-top: 1em; }
+  .tarantulas-World .image-with-text {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 1em; }
+    .tarantulas-World .image-with-text img {
+      width: 70%;
+      height: 30%;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      border-radius: 2em; }
+    .tarantulas-World .image-with-text p {
+      color: rgba(0, 0, 0, 0.521); }
+  .tarantulas-World .text {
+    float: none; }
+  .tarantulas-World .image-with-text-2 {
+    width: 20%;
+    float: right;
+    text-align: center;
+    margin: 1em; }
+    .tarantulas-World .image-with-text-2 img {
+      width: 70%;
+      height: 30%;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      border-radius: 2em; }
+    .tarantulas-World .image-with-text-2 p {
+      color: rgba(0, 0, 0, 0.521); }
