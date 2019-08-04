@@ -39,3 +39,35 @@
     color: #1e7e0a;
     font-weight: 700;
     text-align: center; }
+
+.old-world-vs-new-world {
+  margin-top: 3em; }
+  .old-world-vs-new-world h2 {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 2em; }
+  .old-world-vs-new-world ul {
+    margin-top: 1em;
+    text-align: center; }
+  .old-world-vs-new-world li {
+    display: inline-block; }
+  .old-world-vs-new-world img {
+    width: 17em;
+    height: 17em;
+    border-radius: 1em;
+    border: 1px solid #FF6600; }
+  .old-world-vs-new-world p {
+    color: #FF6600;
+    font-weight: 700; }
+  .old-world-vs-new-world .learn-more {
+    text-align: center;
+    margin-top: 1em; }
+  .old-world-vs-new-world a {
+    padding: 0.5em 2em;
+    background-color: #FF6600;
+    color: #fff;
+    border-radius: 1em;
+    border: 1px solid #FF6600; }
+  .old-world-vs-new-world a:hover {
+    background-color: rgba(255, 102, 0, 0.541);
+    color: #030303; }
