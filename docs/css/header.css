@@ -40,4 +40,5 @@
   .pre-header a:hover {
     color: var(--color-for-buttons, #FF6600);
     text-decoration: underline;
-    opacity: 1; }
+    opacity: 1;
+    transition-duration: 0.4s; }
