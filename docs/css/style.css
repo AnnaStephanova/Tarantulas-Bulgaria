@@ -314,3 +314,21 @@ article {
   .order a:hover {
     background-color: #ee8f4f;
     color: #0e0c0c; }
+
+.conformation {
+  text-align: center;
+  padding-top: 3em; }
+  .conformation h3, .conformation h4, .conformation h5 {
+    font-size: 2em; }
+  .conformation h5 {
+    padding-bottom: 1em; }
+  .conformation a {
+    background-color: #FF6600;
+    padding: 0.7em 0.5em;
+    border-radius: 1em;
+    color: #fff;
+    transition-duration: 0.4s;
+    font-weight: 900; }
+  .conformation a:hover {
+    background: #ee8a47;
+    color: black; }

@@ -1,0 +1,22 @@
+.conformation{
+    text-align: center;
+    padding-top:3em;
+    h3,h4,h5{
+        font-size:2em;
+    }
+    h5{
+        padding-bottom:1em;
+    }
+    a{
+        background-color:#FF6600;
+        padding:0.7em 0.5em;
+        border-radius:1em;
+        color:#fff;
+        transition-duration: 0.4s;
+        font-weight: 900;
+    }
+    a:hover{
+        background:rgb(238, 138, 71);
+        color:black;
+    }
+}
