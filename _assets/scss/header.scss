@@ -3,6 +3,10 @@
     background-size:cover;
     height:20em;
     
+    ul{
+        display:flex;
+        justify-content: space-between
+    }
     h1{
         margin-left:1em;
         padding-top:0.5em;
@@ -18,27 +22,17 @@
     }
 }
 
-
-
-
-
-
 .pre-header{
     background-color:rgba(245, 244, 240, 0.6);
     padding:0.4em;
    
    ul{
        font-size:17px;
-       text-align:center;
+        margin-left:2em;
+        margin-right:2em;
       
    }
-   li{
-       display:inline-block;
-       margin-left:0.2em;
-   }
-   li:not(:first-child){
-       margin-left:2em;
-   }
+  
    .far{
        color:var(--color-for-buttons,#FF6600);
       

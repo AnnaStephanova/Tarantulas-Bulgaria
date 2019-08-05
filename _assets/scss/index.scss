@@ -3,11 +3,12 @@
     ul{
         text-align: center;
         margin:2em 0;
+        display:flex;
+        justify-content: space-between;
+        margin-left:4em;
+        margin-right:4em;
     }
-    li{
-        display:inline-block;
-        margin-left:2em;
-    }
+    
     .fas{
         font-size:20px;
         color:var(--color-for-buttons,#FF6600);
@@ -27,15 +28,12 @@
     
     ul{
         margin-top:1em;
-       
+       display:flex;
+       justify-content: space-between;
+       margin-left:5em;
+       margin-right:5em;
     }
-    li{
-        display:inline-block;
-        width:12em;
-        height:12em;
-        margin-left:1em;
-        
-    }
+    
     img{
         width:12em;
         height:12em;
@@ -43,13 +41,8 @@
 
     }
     p{
-        text-align:left;
-        
-        padding-left:0.7em;
-        padding-right:0.7em;
-        border-bottom:1px solid var(--color-for-buttons,#FF6600);
-        border-left:1px solid var(--color-for-buttons,#FF6600);
-        border-right:1px solid var(--color-for-buttons,#FF6600);
+       margin-top:0.5em;
+    
     }
     .price-for-kits{
         color:rgb(30, 126, 10);
@@ -64,15 +57,16 @@
     
     h2{
         font-size:2em;
-        text-align:left;
+        text-align:center;
         margin-left:2em;
+        margin-bottom:1em;
     }
     ul{
-        margin-top:1em;
-        text-align:center;
+        display:flex;
+        justify-content: center;
     }
     li{
-        display:inline-block;
+        margin-left:2em;
         
     }
     img{
@@ -84,10 +78,14 @@
     p{
         color:#FF6600;
         font-weight: 700;
+        text-align:center;
     }
     .learn-more{
         text-align:center;
         margin-top:1em;
+    }
+    h3{
+        text-align:center;
     }
     a{
         

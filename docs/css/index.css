@@ -2,10 +2,11 @@
   margin-bottom: 1em; }
   .services-provided ul {
     text-align: center;
-    margin: 2em 0; }
-  .services-provided li {
-    display: inline-block;
-    margin-left: 2em; }
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+    margin-right: 4em; }
   .services-provided .fas {
     font-size: 20px;
     color: var(--color-for-buttons, #FF6600);
@@ -18,23 +19,17 @@
     text-align: left;
     margin-left: 2em; }
   .begginer-kit ul {
-    margin-top: 1em; }
-  .begginer-kit li {
-    display: inline-block;
-    width: 12em;
-    height: 12em;
-    margin-left: 1em; }
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em; }
   .begginer-kit img {
     width: 12em;
     height: 12em;
     border: 1px solid var(--color-for-buttons, #FF6600); }
   .begginer-kit p {
-    text-align: left;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    border-bottom: 1px solid var(--color-for-buttons, #FF6600);
-    border-left: 1px solid var(--color-for-buttons, #FF6600);
-    border-right: 1px solid var(--color-for-buttons, #FF6600); }
+    margin-top: 0.5em; }
   .begginer-kit .price-for-kits {
     color: #1e7e0a;
     font-weight: 700;
@@ -44,13 +39,14 @@
   margin-top: 3em; }
   .old-world-vs-new-world h2 {
     font-size: 2em;
-    text-align: left;
-    margin-left: 2em; }
+    text-align: center;
+    margin-left: 2em;
+    margin-bottom: 1em; }
   .old-world-vs-new-world ul {
-    margin-top: 1em;
-    text-align: center; }
+    display: flex;
+    justify-content: center; }
   .old-world-vs-new-world li {
-    display: inline-block; }
+    margin-left: 2em; }
   .old-world-vs-new-world img {
     width: 17em;
     height: 17em;
@@ -58,10 +54,13 @@
     border: 1px solid #FF6600; }
   .old-world-vs-new-world p {
     color: #FF6600;
-    font-weight: 700; }
+    font-weight: 700;
+    text-align: center; }
   .old-world-vs-new-world .learn-more {
     text-align: center;
     margin-top: 1em; }
+  .old-world-vs-new-world h3 {
+    text-align: center; }
   .old-world-vs-new-world a {
     padding: 0.5em 2em;
     background-color: #FF6600;
