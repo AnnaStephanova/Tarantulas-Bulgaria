@@ -1,24 +1,13 @@
-.div-on-sale {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 250px;
-  justify-content: space-evenly;
-  margin-bottom: 2em;
-  .on-sale-1 {
-    background-color: yellow;
-  }
-  .on-sale-2 {
-    background-color: red;
-  }
-  .on-sale-3 {
-    background-color: black;
-  }
+h2 {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
 }
 
-.div-spiders {
+.div-spiders-on-sale {
   display: grid;
   grid-template-columns: 350px 350px 350px;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px;
   justify-content: space-evenly;
   row-gap: 1em;
 
@@ -29,31 +18,79 @@
     margin-left: 2em;
     border-radius: 1em;
   }
-  .spiders-world{
-      
-      text-align: center;
-      p{
-          font-size:18px;
-          margin-top:0.2em;
-      }
-      .price{
-          color:rgb(10, 95, 7);
-          font-weight: 900;
-          padding-bottom:0.2em;
-      }
-      a{
-        color:#fff;
-        background-color:#FF6600;
-        border-radius:0.5em;
-        padding:0.2em 0.5em;
-        font-weight: 900;
-        transition-duration: 0.4s;
-        border:1px solid #FF6600;
-      }
-      a:hover{
-        background-color:#ee8f4f;
-        color:rgb(14, 12, 12);
-      }
+  .spiders-world-on-sale {
+    text-align: center;
+    p {
+      font-size: 18px;
+      margin-top: 0.2em;
+    }
+    .price {
+      color: rgb(10, 95, 7);
+      font-weight: 900;
+      padding-bottom: 0.2em;
+    }
+    a {
+      color: #fff;
+      background-color: #ff6600;
+      border-radius: 0.5em;
+      padding: 0.2em 0.5em;
+      font-weight: 900;
+      transition-duration: 0.4s;
+      border: 1px solid #ff6600;
+    }
+    a:hover {
+      background-color: #ee8f4f;
+      color: rgb(14, 12, 12);
+    }
+    .price-for-discount {
+      color: rgb(165, 4, 4);
+      font-weight: 900;
+      padding-bottom: 0.2em;
+    }
   }
 }
+.want-to-buy {
+  margin-top: 3em;
+  text-align: center;
+  h2 {
+    font-size: 2em;
 
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    margin-left: 2em;
+  }
+  img {
+    width: 17em;
+    height: 17em;
+    border-radius: 1em;
+    border: 1px solid #ff6600;
+  }
+  p {
+    color: #ff6600;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  a {
+    padding: 0.5em 2em;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 1em;
+    border: 1px solid #ff6600;
+    transition-duration: 0.4s;
+  }
+  a:hover {
+    background-color: rgba(255, 102, 0, 0.541);
+    color: rgb(3, 3, 3);
+  }
+}

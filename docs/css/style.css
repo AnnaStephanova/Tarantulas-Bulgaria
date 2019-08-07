@@ -256,6 +256,43 @@ article {
     .tarantulas-World .image-with-text-2 p {
       color: rgba(0, 0, 0, 0.521); }
 
+.div-spiders {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 300px 300px 300px;
+  justify-content: space-evenly;
+  row-gap: 1em; }
+  .div-spiders img {
+    display: block;
+    width: 80%;
+    height: 70%;
+    margin-left: 2em;
+    border-radius: 1em; }
+  .div-spiders .spiders-world {
+    text-align: center; }
+    .div-spiders .spiders-world p {
+      font-size: 18px;
+      margin-top: 0.2em; }
+    .div-spiders .spiders-world .price {
+      color: #0a5f07;
+      font-weight: 900;
+      padding-bottom: 0.2em; }
+    .div-spiders .spiders-world a {
+      color: #fff;
+      background-color: #ff6600;
+      border-radius: 0.5em;
+      padding: 0.2em 0.5em;
+      font-weight: 900;
+      transition-duration: 0.4s;
+      border: 1px solid #ff6600; }
+    .div-spiders .spiders-world a:hover {
+      background-color: #ee8f4f;
+      color: #0e0c0c; }
+    .div-spiders .spiders-world .price-for-discount {
+      color: #a50404;
+      font-weight: 900;
+      padding-bottom: 0.2em; }
+
 .order {
   margin: 2em; }
   .order h3 {
@@ -382,48 +419,79 @@ article {
     background-color: #ee8f4f;
     color: #0e0c0c; }
 
-.div-on-sale {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 250px;
-  justify-content: space-evenly;
-  margin-bottom: 2em; }
-  .div-on-sale .on-sale-1 {
-    background-color: yellow; }
-  .div-on-sale .on-sale-2 {
-    background-color: red; }
-  .div-on-sale .on-sale-3 {
-    background-color: black; }
+h2 {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em; }
 
-.div-spiders {
+.div-spiders-on-sale {
   display: grid;
   grid-template-columns: 350px 350px 350px;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px;
   justify-content: space-evenly;
   row-gap: 1em; }
-  .div-spiders img {
+  .div-spiders-on-sale img {
     display: block;
     width: 80%;
     height: 70%;
     margin-left: 2em;
     border-radius: 1em; }
-  .div-spiders .spiders-world {
+  .div-spiders-on-sale .spiders-world-on-sale {
     text-align: center; }
-    .div-spiders .spiders-world p {
+    .div-spiders-on-sale .spiders-world-on-sale p {
       font-size: 18px;
       margin-top: 0.2em; }
-    .div-spiders .spiders-world .price {
+    .div-spiders-on-sale .spiders-world-on-sale .price {
       color: #0a5f07;
       font-weight: 900;
       padding-bottom: 0.2em; }
-    .div-spiders .spiders-world a {
+    .div-spiders-on-sale .spiders-world-on-sale a {
       color: #fff;
-      background-color: #FF6600;
+      background-color: #ff6600;
       border-radius: 0.5em;
       padding: 0.2em 0.5em;
       font-weight: 900;
       transition-duration: 0.4s;
-      border: 1px solid #FF6600; }
-    .div-spiders .spiders-world a:hover {
+      border: 1px solid #ff6600; }
+    .div-spiders-on-sale .spiders-world-on-sale a:hover {
       background-color: #ee8f4f;
       color: #0e0c0c; }
+    .div-spiders-on-sale .spiders-world-on-sale .price-for-discount {
+      color: #a50404;
+      font-weight: 900;
+      padding-bottom: 0.2em; }
+
+.want-to-buy {
+  margin-top: 3em;
+  text-align: center; }
+  .want-to-buy h2 {
+    font-size: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em; }
+  .want-to-buy ul {
+    display: flex;
+    justify-content: center; }
+  .want-to-buy li {
+    margin-left: 2em; }
+  .want-to-buy img {
+    width: 17em;
+    height: 17em;
+    border-radius: 1em;
+    border: 1px solid #ff6600; }
+  .want-to-buy p {
+    color: #ff6600;
+    font-weight: 700;
+    text-align: center; }
+  .want-to-buy h3 {
+    text-align: center;
+    margin-bottom: 1em; }
+  .want-to-buy a {
+    padding: 0.5em 2em;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 1em;
+    border: 1px solid #ff6600;
+    transition-duration: 0.4s; }
+  .want-to-buy a:hover {
+    background-color: rgba(255, 102, 0, 0.541);
+    color: #030303; }

@@ -67,3 +67,48 @@
   }
 }
 
+.div-spiders {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 300px 300px 300px;
+  justify-content: space-evenly;
+  row-gap: 1em;
+
+  img {
+    display: block;
+    width: 80%;
+    height: 70%;
+    margin-left: 2em;
+    border-radius: 1em;
+  }
+  .spiders-world {
+    text-align: center;
+    p {
+      font-size: 18px;
+      margin-top: 0.2em;
+    }
+    .price {
+      color: rgb(10, 95, 7);
+      font-weight: 900;
+      padding-bottom: 0.2em;
+    }
+    a {
+      color: #fff;
+      background-color: #ff6600;
+      border-radius: 0.5em;
+      padding: 0.2em 0.5em;
+      font-weight: 900;
+      transition-duration: 0.4s;
+      border: 1px solid #ff6600;
+    }
+    a:hover {
+      background-color: #ee8f4f;
+      color: rgb(14, 12, 12);
+    }
+    .price-for-discount {
+      color: rgb(165, 4, 4);
+      font-weight: 900;
+      padding-bottom: 0.2em;
+    }
+  }
+}
