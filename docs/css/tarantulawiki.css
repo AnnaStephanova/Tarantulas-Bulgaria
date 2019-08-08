@@ -1,0 +1,25 @@
+.tarantulas-wiki {
+  display: flex;
+  justify-content: space-evenly; }
+
+.choose-a-monster h2 {
+  color: #FF6600; }
+
+.menu-to-choose-from ul {
+  margin: 2em; }
+
+.menu-to-choose-from li {
+  margin: 1em; }
+
+.menu-to-choose-from a {
+  background-color: var(--color-for-buttons, #FF6600);
+  padding: 0.3em 0.5em;
+  color: #fff;
+  border-radius: 1em;
+  border: 1px solid var(--color-for-buttons, #FF6600);
+  transition-duration: 0.4s;
+  font-weight: 700; }
+
+.menu-to-choose-from a:hover {
+  background-color: #af622f;
+  color: #050303; }
