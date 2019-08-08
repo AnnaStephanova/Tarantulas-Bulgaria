@@ -6,12 +6,13 @@
   .conformation h5 {
     padding-bottom: 1em; }
   .conformation a {
-    background-color: #FF6600;
+    background-color: var(--color-for-buttons, #FF6600);
+    border: 1px solid var(--color-for-buttons, #FF6600);
     padding: 0.7em 0.5em;
     border-radius: 1em;
     color: #fff;
     transition-duration: 0.4s;
     font-weight: 900; }
   .conformation a:hover {
-    background: #ee8a47;
+    background: var(--color-for-buttons-hover, rgba(240, 189, 155, 0.774));
     color: black; }

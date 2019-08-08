@@ -77,7 +77,8 @@ h1, h2, h3, h4, h5 {
 :root {
   --content-font-style:'Open Sans', sans-serif;
   --headings-font-style:'Grenze', serif;
-  --color-for-buttons:#FF6600; }
+  --color-for-buttons:#FF6600;
+  --color-for-buttons-hover:rgba(240, 189, 155, 0.774); }
 
 .declaimer {
   background-color: #f8f5f5;
@@ -121,7 +122,7 @@ article {
 
 .navigation {
   padding: 0.4em 1.5em;
-  background-color: rgba(240, 189, 155, 0.774);
+  background-color: var(--color-for-buttons-hover, rgba(240, 189, 155, 0.774));
   border-bottom: 1px solid var(--color-for-buttons, #FF6600); }
   .navigation li {
     display: inline-block; }
@@ -216,10 +217,12 @@ article {
     .tarantulas-World header img {
       width: 40%;
       height: 20%;
-      border-radius: 1.5em; }
+      border-radius: 1.5em;
+      transition-duration: 0.6s;
+      margin-left: auto;
+      margin-right: auto; }
     .tarantulas-World header img:hover {
-      opacity: 0.5;
-      transition-duration: 2s; }
+      opacity: 0.5; }
     .tarantulas-World header h1 {
       color: #FF6600;
       font-weight: 900; }
@@ -230,7 +233,7 @@ article {
   .tarantulas-World .image-with-text {
     width: 20%;
     float: left;
-    text-align: center;
+    text-align: left;
     margin: 1em; }
     .tarantulas-World .image-with-text img {
       width: 70%;
@@ -244,9 +247,7 @@ article {
     float: none; }
   .tarantulas-World .image-with-text-2 {
     width: 20%;
-    float: right;
-    text-align: center;
-    margin: 1em; }
+    float: right; }
     .tarantulas-World .image-with-text-2 img {
       width: 70%;
       height: 30%;
@@ -363,14 +364,15 @@ article {
   .conformation h5 {
     padding-bottom: 1em; }
   .conformation a {
-    background-color: #FF6600;
+    background-color: var(--color-for-buttons, #FF6600);
+    border: 1px solid var(--color-for-buttons, #FF6600);
     padding: 0.7em 0.5em;
     border-radius: 1em;
     color: #fff;
     transition-duration: 0.4s;
     font-weight: 900; }
   .conformation a:hover {
-    background: #ee8a47;
+    background: var(--color-for-buttons-hover, rgba(240, 189, 155, 0.774));
     color: black; }
 
 .contactus {
@@ -531,35 +533,36 @@ img {
   justify-content: space-evenly; }
 
 .choose-a-monster h2 {
-  color: #FF6600; }
+  color: #ff6600; }
 
 .menu-to-choose-from ul {
-  flex: 0 0 60%;
+  flex: 0 0 50%;
   margin: 2em; }
 
 .menu-to-choose-from li {
   margin: 1em; }
 
 .menu-to-choose-from a {
-  background-color: var(--color-for-buttons, #FF6600);
+  background-color: var(--color-for-buttons-hover, rgba(240, 189, 155, 0.774));
+  border: 1px solid var(--color-for-buttons, #ff6600);
   padding: 0.3em 0.5em;
-  color: #fff;
+  color: #030303;
   border-radius: 1em;
-  border: 1px solid var(--color-for-buttons, #FF6600);
   transition-duration: 0.4s;
   font-weight: 700;
   text-align: center; }
 
 .menu-to-choose-from a:hover {
-  background-color: #af622f;
-  color: #050303; }
+  background-color: var(--color-for-buttons, #ff6600);
+  color: #fff; }
 
 .menu-to-choose-from .active {
-  background-color: #af622f; }
+  background-color: var(--color-for-buttons, #ff6600);
+  color: #fff; }
 
 .menu-to-choose-from .active:hover {
-  background-color: #FF6600;
-  color: #fff; }
+  background-color: var(--color-for-buttons-hover, rgba(240, 189, 155, 0.774));
+  color: #070707; }
 
 .tarantulas-wiki-info {
   margin-top: 2em;
@@ -575,7 +578,7 @@ img {
     text-align: left; }
   .tarantulas-wiki-info h4 {
     font-size: 1.5em;
-    color: #FF6600; }
+    color: #ff6600; }
   .tarantulas-wiki-info .type-tarantula {
     color: #068d11;
     font-weight: 900;

@@ -1,6 +1,6 @@
 .navigation {
   padding: 0.4em 1.5em;
-  background-color: rgba(240, 189, 155, 0.774);
+  background-color: var(--color-for-buttons-hover, rgba(240, 189, 155, 0.774));
   border-bottom: 1px solid var(--color-for-buttons, #FF6600); }
   .navigation li {
     display: inline-block; }
