@@ -3,14 +3,14 @@
     background-color: var(--color-for-buttons-hover,rgba(240, 189, 155, 0.774));
     border-bottom:1px solid var(--color-for-buttons,#FF6600);
     
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    
     li{
-        display:inline-block;
-        
+        flex-direction: row;
     }
-
-    li:not(:first-child){
-    margin-left:3em;
-    }
+   
     a{
         color:rgb(3, 3, 3);
         font-weight: 700;

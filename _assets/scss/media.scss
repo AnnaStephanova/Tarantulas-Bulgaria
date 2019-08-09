@@ -1,0 +1,326 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 20px;
+
+  }
+  .header {
+    height: 25em;
+  }
+  .navigation {
+    flex-wrap: wrap;
+    li {
+      margin-left: 1em;
+      margin-top: 1em;
+    }
+  }
+  .header {
+    .pre-header {
+      ul {
+        flex-wrap: wrap;
+      }
+      li {
+        width: 30%;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+  .begginer-kit {
+    ul {
+      flex-wrap: wrap;
+      justify-content: none;
+
+      text-align: none;
+    }
+    li {
+      margin: 0;
+      padding: 0;
+      flex: 0 0 30%;
+    }
+    img {
+      width: 10em;
+      height: 10em;
+    }
+    p {
+      margin-left: 0;
+    }
+  }
+
+  .old-world-vs-new-world {
+    ul {
+      flex-wrap: wrap;
+    }
+    li{
+        margin-top:1em;
+    }
+  }
+  .div-spiders-on-sale {
+    grid-template-columns: 350px;
+    grid-template-rows: 300px 300px 300px;
+  }
+  .want-to-buy {
+    ul {
+      flex-wrap:wrap;
+    }
+    li {
+      margin-bottom: 1em;
+    }
+    h2 {
+      margin-bottom: 0.3em;
+    }
+  }
+  .terariums,
+  .accessories {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    margin-left:1.5em;
+  }
+
+  .div-spiders {
+      margin-left:1em;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 300px 300px 300px 300px;
+    img{
+        width:70%;
+     
+    }
+  }
+  .tarantulas-World{
+    
+    .image-with-text-2{
+        margin-right:1em;
+     
+    }
+  }
+  .tarantulas-wiki {
+    flex-direction: column;
+    .menu-to-choose-from {
+      ul {
+        
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 95%;
+      }
+      li {
+        margin:0.5em;
+      }
+    }
+    .tarantulas-wiki-info {
+        margin-left:2em;
+    }
+  }
+
+  .choose-a-monster {
+    h2 {
+      font-size: 2em;
+    }
+  }
+  .order {
+    form {
+      text-align: center;
+    }
+    p {
+      margin: 0;
+    }
+    span {
+        
+      label {
+        padding: 0;
+        display: block;
+        
+      }
+      
+      select {
+        width: 100%;
+      }
+    }
+    select {
+      width: 50%;
+    }
+  }
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+   
+  html {
+      
+  }
+  .header {
+    height: 30em;
+    .pre-header {
+      ul {
+        flex-direction: column;
+      }
+      li {
+        margin-bottom: 0.3em;
+      }
+     
+    }
+    h1{
+        padding-top:0;
+      }
+      h2{
+         font-size:2em;
+         padding-top:0;
+      }
+  }
+  .navigation {
+    flex-direction: column;
+    align-content: center;
+    li {
+      margin-bottom: 0.3em;
+    }
+  }
+  .services-provided {
+    ul {
+      flex-direction: column;
+    }
+    li {
+      margin-top: 0.8em;
+    }
+  }
+  .begginer-kit {
+      margin:0;
+      padding:0;
+    ul {
+      flex-direction: column;
+    }
+    p {
+      width: 100%;
+    }
+  }
+  .old-world-vs-new-world {
+    margin-bottom: 1em;
+    
+
+    ul {
+      flex-direction: column;
+      
+    }
+    li {
+      margin-bottom: 1em;
+      
+    }
+    img{
+        width:90%;
+    }
+    h2 {
+      margin-bottom: 0.3em;
+    }
+  }
+  .div-spiders-on-sale {
+    grid-template-columns: 350px;
+    grid-template-rows: 300px 300px 300px;
+  }
+  .want-to-buy {
+    ul {
+      flex-direction: column;
+      
+    }
+    img{
+        width:90%;
+    }
+    li {
+      margin-bottom: 1em;
+    }
+    h2 {
+      margin-bottom: 0.3em;
+    }
+  }
+  .image-with-text,
+  .image-with-text-2 {
+    display: none;
+  }
+  .div-spiders {
+      margin-left:3em;
+    grid-template-columns: 350px;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px;
+    img{
+        width:65%;
+        
+    }
+    p{
+        text-align:left;
+        margin-left:2.6em;
+    }
+    .price{
+        margin-left:3em;
+    }
+}
+  .tarantulas-World {
+    header {
+      img {
+        width: 70%;
+        height: 50%;
+      }
+    }
+  }
+  .accessories,
+  .terariums {
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 300px 300px;
+    margin-bottom: 2em;
+   margin-left:2em;
+    p {
+      width: 70%;
+    }
+  }
+  .contactus {
+      margin:0.5em;
+    text-align: center;
+    #message {
+      width: 15em;
+      display: inline-block;
+    }
+    input{
+        width:90%;
+    }
+    label{
+        display:block;
+    }
+  }
+  .order {
+    form {
+      text-align: center;
+    }
+    p {
+      margin: 0;
+    }
+    span {
+      label {
+        padding: 0;
+      }
+      flex-direction: column;
+      select {
+        width: 100%;
+      }
+    }
+    select {
+      width: 100%;
+    }
+  }
+  .tarantulas-wiki {
+    flex-direction: column;
+    .menu-to-choose-from {
+      ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      li {
+        margin: 0.5em;
+      }
+    }
+  }
+  .tarantulas-wiki-info {
+      margin-left:0.5em;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  .declaimer {
+    padding:0.5em;  
+  }
+}
