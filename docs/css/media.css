@@ -1,6 +1,94 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1600px) {
   html {
-    font-size: 20px; }
+    font-size: 25px; }
+  .header {
+    font-size: 22px; }
+  .pre-header a {
+    font-size: 28px; }
+  .pre-header li {
+    font-size: 28px; }
+  .services-provided {
+    font-size: 30px; }
+    .services-provided .fas {
+      font-size: 35px; }
+  .begginer-kit {
+    font-size: 30px; }
+  .declaimer {
+    font-size: 26px; }
+  .div-spiders-on-sale {
+    text-align: none; }
+    .div-spiders-on-sale .spiders-world-on-sale p {
+      font-size: 30px;
+      width: 100%;
+      margin-left: 1.5em; }
+    .div-spiders-on-sale .spiders-world-on-sale img {
+      width: 100%;
+      height: 100%; }
+    .div-spiders-on-sale .spiders-world-on-sale a {
+      margin-left: 2em; }
+  .want-to-buy {
+    margin-top: 6em; }
+  .terariums img,
+  .accessories img {
+    width: 100%;
+    height: 100%; }
+  .terariums .choice,
+  .accessories .choice {
+    margin: 0.4em; }
+    .terariums .choice p,
+    .accessories .choice p {
+      font-size: 25px; }
+  .order,
+  .contactus {
+    font-size: 30px; }
+    .order a,
+    .contactus a {
+      font-size: 30px; }
+    .order form label,
+    .contactus form label {
+      font-size: 26px; }
+    .order form select,
+    .order form input,
+    .contactus form select,
+    .contactus form input {
+      width: 20em;
+      height: 3em;
+      font-size: 20px;
+      border-width: 2px; }
+      .order form select option,
+      .order form input option,
+      .contactus form select option,
+      .contactus form input option {
+        font-size: 20px; }
+    .order form #message,
+    .contactus form #message {
+      width: 80em;
+      height: 25em;
+      border-width: 2px; }
+  .div-spiders .spiders-world {
+    justify-content: space-evenly;
+    margin-bottom: 4em; }
+    .div-spiders .spiders-world p {
+      font-size: 28px;
+      width: 98%;
+      margin-left: 1em; }
+    .div-spiders .spiders-world a {
+      margin-left: 1em; }
+    .div-spiders .spiders-world img {
+      width: 90%;
+      height: 90%; }
+  .tarantulas-wiki-info p {
+    font-size: 28px; }
+  .tarantulas-World .text {
+    font-size: 28px; }
+  .image-with-text p {
+    font-size: 30px; }
+  article {
+    font-size: 28px; }
+    article .shipping-titles {
+      font-size: 30px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .header {
     height: 25em; }
   .navigation {
@@ -29,14 +117,16 @@
   .old-world-vs-new-world ul {
     flex-wrap: wrap; }
   .old-world-vs-new-world li {
-    margin-top: 1em; }
+    margin-top: 1em;
+    margin-left: 1em; }
   .div-spiders-on-sale {
     grid-template-columns: 350px;
     grid-template-rows: 300px 300px 300px; }
   .want-to-buy ul {
     flex-wrap: wrap; }
   .want-to-buy li {
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    margin-left: 1em; }
   .want-to-buy h2 {
     margin-bottom: 0.3em; }
   .terariums,
@@ -45,7 +135,7 @@
     grid-template-rows: 300px 300px;
     margin-left: 1.5em; }
   .div-spiders {
-    margin-left: 1em;
+    margin-left: 2.5em;
     grid-template-columns: 350px 350px;
     grid-template-rows: 300px 300px 300px 300px; }
     .div-spiders img {
@@ -101,9 +191,14 @@
     margin: 0;
     padding: 0; }
     .begginer-kit ul {
-      flex-direction: column; }
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0; }
+    .begginer-kit img {
+      margin-left: 15%; }
     .begginer-kit p {
-      width: 100%; }
+      width: 70%;
+      margin-left: 15%; }
   .old-world-vs-new-world {
     margin-bottom: 1em; }
     .old-world-vs-new-world ul {
@@ -116,7 +211,10 @@
       margin-bottom: 0.3em; }
   .div-spiders-on-sale {
     grid-template-columns: 350px;
-    grid-template-rows: 300px 300px 300px; }
+    grid-template-rows: 300px 300px 300px;
+    margin-left: 2.5em; }
+    .div-spiders-on-sale img {
+      width: 70%; }
   .want-to-buy ul {
     flex-direction: column; }
   .want-to-buy img {
@@ -147,7 +245,10 @@
     grid-template-columns: 300px;
     grid-template-rows: 300px 300px 300px;
     margin-bottom: 2em;
-    margin-left: 2em; }
+    margin-left: 4em; }
+    .accessories img,
+    .terariums img {
+      width: 70%; }
     .accessories p,
     .terariums p {
       width: 70%; }
@@ -165,24 +266,29 @@
     text-align: center; }
   .order p {
     margin: 0; }
+  .order input {
+    width: 90%; }
   .order span {
     flex-direction: column; }
     .order span label {
       padding: 0; }
     .order span select {
-      width: 100%; }
+      width: 90%; }
+    .order span input {
+      width: 90%; }
   .order select {
-    width: 100%; }
+    width: 90%; }
   .tarantulas-wiki {
+    font-size: 14px;
     flex-direction: column; }
     .tarantulas-wiki .menu-to-choose-from ul {
-      display: inline-flex;
       flex-wrap: wrap;
       width: 100%; }
     .tarantulas-wiki .menu-to-choose-from li {
-      margin: 0.5em; }
+      margin: 1em; }
   .tarantulas-wiki-info {
-    margin-left: 0.5em; }
+    margin-left: 0.3em;
+    margin-right: 0.2em; }
     .tarantulas-wiki-info img {
       width: 80%;
       height: 80%; }
